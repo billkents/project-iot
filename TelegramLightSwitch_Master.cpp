@@ -5,12 +5,12 @@
 #include <WiFiUdp.h>
 
 // WiFi Configuration
-const char* ssid = "WMC-1 Server";
-const char* password = "billkent15";
+const char* ssid = "***";
+const char* password = "***";
 
 // Telegram Configuration
-#define BOT_TOKEN "7145888603:AAHc2hJpFpxVihGCdZUeDxQ8ThCrQUdZOHQ"
-#define CHAT_ID "6161932426"
+#define BOT_TOKEN "***"
+#define CHAT_ID "***"
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 
